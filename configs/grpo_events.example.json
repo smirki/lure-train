@@ -1,0 +1,11 @@
+{
+  "branch": "V",
+  "steps": 150,
+  "eval_every": 25,
+  "max_line_s": 20.0,
+  "judge_w": {"tags": 1.0},
+  "judges": {
+    "tags": {"ckpt": "/vol/judges/tags/heads.pt", "policy": "/vol/judges/tags/policy.json"}
+  },
+  "budget_usd": 30.0
+}

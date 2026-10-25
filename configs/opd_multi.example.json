@@ -1,0 +1,23 @@
+{
+  "_note": "Multi-teacher distillation of GRPO specialist branches; every manifest row needs a branch field matching a teacher key.",
+  "teachers": {
+    "V": "/vol/results/grpo/v1/ckpt/talker_step0150.pt",
+    "R": "/vol/results/grpo/r1/ckpt/talker_step0120.pt"
+  },
+  "student_init": "/vol/ckpt/lure/talker.pt",
+  "head": "",
+  "manifest": "/vol/data/opd/manifest.jsonl",
+  "codes": "/vol/data/opd/codes",
+  "branch_weights": {"V": 1.0, "R": 1.0},
+  "eval_set": "/vol/inputs/eval.jsonl",
+  "calib": "/vol/inputs/events_calib.json",
+  "steps": 200,
+  "n_on": 16,
+  "n_kd": 8,
+  "lr_tal": 2e-6,
+  "fwd_w": 0.5,
+  "kd_w": 0.5,
+  "w0": 1.0,
+  "evals_at": [0.25, 0.5, 0.75, 1.0],
+  "budget_usd": 20.0
+}

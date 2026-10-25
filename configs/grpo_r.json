@@ -1,0 +1,14 @@
+{
+  "branch": "R",
+  "steps": 120,
+  "prompts": 16,
+  "group": 8,
+  "lr": 4e-6,
+  "beta": 0.1,
+  "eval_every": 20,
+  "n_long": 6,
+  "n_hard": 3,
+  "max_line_s": 25.0,
+  "passage_takes": 5,
+  "budget_usd": 30.0
+}

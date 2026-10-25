@@ -1,0 +1,12 @@
+{
+  "_note": "AST event-hit calibration for evaluate.py. thresholds = p95 of each family score on untagged control takes; only validated tags are checked. Placeholder values: fit your own.",
+  "thresholds": {"laugh": 0.15, "breath": 0.10, "sigh": 0.10, "cry": 0.10, "cough": 0.15},
+  "per_tag": {
+    "laugh": {"family": "laugh", "validated": true},
+    "chuckle": {"family": "laugh", "validated": true},
+    "sigh": {"family": "sigh", "validated": true},
+    "gasp": {"family": "breath", "validated": false},
+    "sob": {"family": "cry", "validated": false},
+    "cough": {"family": "cough", "validated": true}
+  }
+}

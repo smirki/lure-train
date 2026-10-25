@@ -1,0 +1,20 @@
+{
+  "teachers": {"lure": "/vol/ckpt/lure/talker.pt"},
+  "head": "V2s",
+  "head_init": "/vol/results/heads/head_v2s/V2s.pt",
+  "manifest": "/vol/data/sft/manifest.jsonl",
+  "codes": "/vol/data/sft/codes",
+  "eval_set": "/vol/inputs/eval.jsonl",
+  "calib": "/vol/inputs/events_calib.json",
+  "steps": 120,
+  "n_on": 16,
+  "n_kd": 8,
+  "lr_head": 3e-5,
+  "lr_tal": 2e-6,
+  "train_talker": true,
+  "fwd_w": 0.5,
+  "kd_w": 0.5,
+  "w0": 1.0,
+  "evals_at": [0.5, 1.0],
+  "budget_usd": 12.0
+}

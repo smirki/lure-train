@@ -1,0 +1,12 @@
+{
+  "branch": "V",
+  "steps": 150,
+  "eval_every": 25,
+  "max_line_s": 20.0,
+  "judge_w": {"emotion": 1.0, "intensity": 0.5},
+  "judges": {
+    "intensity": {"ckpt": "/vol/judges/intensity/head_cal.pt", "thresholds": "/vol/judges/intensity/thresholds.json"},
+    "emotion": {"ckpt": "/vol/judges/emotion/head.pt"}
+  },
+  "budget_usd": 30.0
+}

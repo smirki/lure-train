@@ -1,0 +1,4 @@
+{"audio": "data/sft/clips/chan_42/0001.flac", "text": "Okay (laugh) you got me.", "speaker": "chan_42", "src": "yodas"}
+{"audio": "data/sft/clips/chan_42/0002.flac", "text": "I really didn't think you'd find it.", "speaker": "chan_42", "direction": "warm, amused", "src": "yodas"}
+{"audio": "data/sft/clips/chan_7/0001.flac", "text": "Fine. (sigh) Let's go.", "ref_audio": "data/voices/chan_7_ref.flac", "ref_text": "This is how I normally sound.", "split": "heldout", "src": "yodas"}
+{"audio": "data/opd/r/0001.flac", "text": "Order #4471 ships on 03/14 to 221B Baker St.", "speaker": "v12", "branch": "R"}
